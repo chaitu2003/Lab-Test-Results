@@ -1,0 +1,40 @@
+div {
+    padding: 12px;
+}
+
+.container1 {
+    padding: 13px;
+    background-color: #000000;
+    margin-top: 10px;
+    border-radius: 15px;
+    max-width: auto;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+body {
+    justify-items: center;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 9px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.05);
+}
+
+label {
+    color: white;
+}
+
+.h {
+    color: white;
+    text-wrap: balance;
+}
+
+#result {
+    color: white;
+}
