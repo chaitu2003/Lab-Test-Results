@@ -2,9 +2,19 @@ div {
     padding: 12px;
 }
 
+.bg{
+    background:  linear-gradient(to right, #9a8932, #eb8ba9);
+}
+
+.info {
+    color: white;
+}
+
+
+
 .container1 {
     padding: 13px;
-    background-color: #000000;
+    background-color: #42e1c6;
     margin-top: 10px;
     border-radius: 15px;
     max-width: auto;
