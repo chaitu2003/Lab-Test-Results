@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/lab_test_results.css">
+    <script src="assets/js/lab_test_results.js" ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid bg">
+        <div class="row min-vh-100 align-items-center px-4">
+            <div class="col-md-7 info">
+                <div>
+                    <h2>Glucose 🩸</h2>
+                    <p>Glucose is a type of sugar that serves as your body’s main source of energy.</p>
+                    <li>Low glucose (hypoglycemia) can cause dizziness, confusion, or fainting.</li>
+                    <li>High glucose (hyperglycemia) may indicate diabetes or prediabetes.</li>
+
+                    <ul>
+                        <li>Normal range: 70–99 mg/dL (fasting)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Hemoglobin 🧬</h2>
+                    <p>Hemoglobin is a protein in red blood cells that carries oxygen throughout the body.</p>
+                    <li>Low hemoglobin may point to anemia, fatigue, or blood loss.</li>
+                    <li>High hemoglobin could be due to dehydration or heart/lung conditions.</li>
+
+                    <ul>
+                        <li>Normal range (men): 13.8–17.2 g/dL</li>
+                        <li>Normal range (women): 12.1–15.1 g/dL</li>
+                    </ul>
+                </div>
+            </div>
+        
+        
+            <div class="col-md-4">
+                <div class="container1">
+                    <div>
+                        <h1 class="h text-dark">Lab Test Results</h1>
+                    </div>
+                    <form onsubmit="cal(event)">
+                        <div>
+                            <label class="text-dark">Enter your Gloucose level:</label>
+                            <div>
+                                <input type="text" id="glucose" placeholder="Enter your glucose level" required>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="text-dark">Enter your hemoglobin percentage:</label>
+                            <div>
+                                <input type="text" id="hemoglobin" placeholder="Enter your hemoglobin percentage" required>
+                            </div>
+                        </div>
+                        <div class="text-center d-grid mb3">
+                            <button type="submit" class="btn btn-primary ">Submit</button>
+                        </div>
+                        <div>
+                            <p id="result text-dark">Results:</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
