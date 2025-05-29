@@ -5,6 +5,11 @@ function cal(event){
             const hemoglobin = parseFloat(document.getElementById('hemoglobin').value);
             const results = document.getElementById('result');
 
+            if(isNaN(hemoglobin) || hemoglobin <=0 || glucose <= 0){
+                alert("enter valid values");
+                return;
+            }
+
             let msg = [];
 
             if(glucose < 70) {
