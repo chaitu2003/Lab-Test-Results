@@ -14,8 +14,8 @@ div {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     /* color: #fff; */
     margin-bottom: 10px;
-    max-height: 600px;
     font-weight: 500;
+    height: fit-content;
 }
 
 .video-bg {
@@ -33,7 +33,7 @@ div {
 
 .container1 {
     padding: 13px;
-    background-color: #395c51;
+    /* background-color: #35712c69; */
     margin-top: 10px;
     border-radius: 15px;
     max-width: auto;
@@ -46,7 +46,7 @@ body {
 }
 
 input[type=text] {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
     padding: 10px;
     border: none;
@@ -58,15 +58,7 @@ input[type=text] {
     padding: 9px 25px;
 }
 
-label {
-    color: white;
-}
-
-.h {
-    color: white;
-    text-wrap: balance;
-}
-
-#result {
-    color: white;
+.fields {
+    color: black;
+    font-weight: 600;
 }
