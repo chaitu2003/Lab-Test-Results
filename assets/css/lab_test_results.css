@@ -1,21 +1,8 @@
-div {
-    padding: 12px;
-}
-
-.con {
-    display: flex;
-    justify-content: space-between;
-}
-
-.info {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    padding: 25px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    /* color: #fff; */
-    margin-bottom: 10px;
-    font-weight: 500;
-    height: fit-content;
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  /* background-color: #f8f9fa; */
 }
 
 .video-bg {
@@ -31,34 +18,45 @@ div {
   pointer-events: none;
 }
 
+div {
+  padding: 12px;
+}
+
+.con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  font-weight: 500;
+  height: 100%;
+}
+
 .container1 {
-    padding: 13px;
-    /* background-color: #35712c69; */
-    margin-top: 10px;
-    border-radius: 15px;
-    max-width: auto;
-    /* min-height: 450px; */
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: #f8f9fa;
+  padding: 13px;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+              rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
-body {
-    justify-items: center;
-}
-
-input[type=text] {
-    margin-top: 20px;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
-
-.submitbutton {
-    padding: 9px 25px;
+input[type="text"] {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .fields {
-    color: black;
-    font-weight: 600;
+  color: black;
+  font-weight: 600;
 }
