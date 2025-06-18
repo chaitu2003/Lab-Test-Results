@@ -10,58 +10,50 @@
 </head>
 <body>
   <img src="https://th.bing.com/th/id/R.f74736ebd626c680f5c88d163c9985ca?rik=tDygisT030LErA&riu=http%3a%2f%2fbestanimations.com%2fScience%2fBiology%2fDNA%2fdna%2fdna-rna-chromosomes-double-helix-rotating-animated-gif-3.gif&ehk=t6iO1JqQXW5TcV9RH9wjBQbeJ9znE6uqighjAZoL040%3d&risl=&pid=ImgRaw&r=0" class="video-bg" alt="DNA">
-  
-  <div class="container-fluid bg h-100">
-    <div class="row h-100 align-items-stretch px-4 con">
-      
-      <!-- Left Column -->
-      <div class="col-md-7 d-flex flex-column justify-content-between info h-100">
-        <div>
-          <h1>Glucose 🩸</h1>
-          <p>Glucose is a type of sugar that serves as your body’s main source of energy.</p>
+
+  <div class="container-fluid con">
+    <!-- Info Panel -->
+    <div class="info">
+      <div>
+        <h2>Glucose 🩸</h2>
+        <p>Glucose is a type of sugar that serves as your body’s main source of energy.</p>
+        <ul>
           <li>Low glucose (hypoglycemia) can cause dizziness, confusion, or fainting.</li>
           <li>High glucose (hyperglycemia) may indicate diabetes or prediabetes.</li>
-          <ul>
-            <li>Normal range: 70–99 mg/dL (fasting)</li>
-          </ul>
-        </div>
-        <div>
-          <h1>Hemoglobin 🧬</h1>
-          <p>Hemoglobin is a protein in red blood cells that carries oxygen throughout the body.</p>
+          <li><strong>Normal range:</strong> 70–99 mg/dL (fasting)</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Hemoglobin 🧬</h2>
+        <p>Hemoglobin is a protein in red blood cells that carries oxygen throughout the body.</p>
+        <ul>
           <li>Low hemoglobin may point to anemia, fatigue, or blood loss.</li>
           <li>High hemoglobin could be due to dehydration or heart/lung conditions.</li>
-          <ul>
-            <li>Normal range (men): 13.8–17.2 g/dL</li>
-            <li>Normal range (women): 12.1–15.1 g/dL</li>
-          </ul>
-        </div>
+          <li><strong>Normal range (men):</strong> 13.8–17.2 g/dL</li>
+          <li><strong>Normal range (women):</strong> 12.1–15.1 g/dL</li>
+        </ul>
       </div>
+    </div>
 
-      <!-- Right Column -->
-      <div class="col-md-5 d-flex flex-column h-100">
-        <div class="container1 d-flex flex-column justify-content-between h-100">
-          <div>
-            <h1 class="h">Lab Test Results</h1>
-          </div>
-          <form onsubmit="cal(event)">
-            <div class="mb-3">
-              <label class="fields">Enter your Glucose level:</label>
-              <input type="text" id="glucose" placeholder="Enter your glucose level" required>
-            </div>
-            <div class="mb-3">
-              <label class="fields">Enter your Hemoglobin percentage:</label>
-              <input type="text" id="hemoglobin" placeholder="Enter your hemoglobin percentage" required>
-            </div>
-            <div class="text-center d-grid mb-3">
-              <button type="submit" class="btn btn-success">Submit</button>
-            </div>
-            <div class="fields" style="min-height: 60px;">
-              <p id="result">Results:</p>
-            </div>
-          </form>
+    <!-- Form Panel -->
+    <div class="container1">
+      <form onsubmit="cal(event)">
+        <h2 class="mb-4 text-center">Lab Test Results</h2>
+        <div class="mb-3">
+          <label class="fields">Enter your Glucose level:</label>
+          <input type="text" id="glucose" placeholder="e.g., 85" required>
         </div>
-      </div>
-
+        <div class="mb-3">
+          <label class="fields">Enter your Hemoglobin percentage:</label>
+          <input type="text" id="hemoglobin" placeholder="e.g., 14.2" required>
+        </div>
+        <div class="d-grid mb-3">
+          <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+        <div class="fields" style="min-height: 60px;">
+          <p id="result">Results:</p>
+        </div>
+      </form>
     </div>
   </div>
 </body>
